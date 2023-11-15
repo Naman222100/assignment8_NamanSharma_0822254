@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    <title>Mussorie</title>
+</head>
+
+<body>
+    <header class="text-center">
+        <h1 class="text-primary">My Travel Diaries</h1>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="bg-info p-4">
+                    <h2>Destination</h2>
+                    <p>Location: Situated in the Dehradun District of Uttarakhand, India.
+                        Altitude: It stands at an elevation of around 1,880 meters (6,170 feet) above sea level.
+                        Accessibility: Easily reachable from Dehradun, a major city in Uttarakhand, by road.
+                        Weather: Generally pleasant summers (March to June) and chilly winters (November to February) with occasional snowfall.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-success p-4">
+                    <h2>Facts</h2>
+                    <p>Queen of Hills: Often referred to as the "Queen of the Hills" due to its stunning beauty and scenic landscapes.
+                        British Era Influence: Exhibits colonial architecture and British-era remnants like churches, libraries, and institutions.
+                        Historical Significance: Mussoorie was a favored summer retreat for the British during the colonial period.</p>
+                </div>
+            </div>
+            <div class="col-md-4 clickable-column" data-toggle="popover" data-placement="top" title="Places to Visit" data-content="Highlighting popular attractions...">
+                <div class="bg-warning p-4">
+                    <h2>Places to Visit</h2>
+                    <p>Gun Hill: Offers panoramic views of the Himalayas and the Doon Valley. Accessible via a cable car ride.
+
+                        Kempty Falls: A popular waterfall where visitors can enjoy a refreshing dip in the pool.
+                        
+                        Lal Tibba: Highest point in Mussoorie, famous for its breathtaking sunrise and sunset views.
+                        
+                        Camel's Back Road: Serene stretch for leisurely walks and witnessing the beauty of the sunset.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 mb-4">
+                <div class="bg-secondary p-4">
+                    <h2>Additional Info</h2>
+                    <p>Adventure Activities: Mussoorie offers trekking, hiking, paragliding, and camping opportunities.
+                        Local Cuisine: Savour local Garhwali food and enjoy a variety of cuisine in restaurants along the Mall Road.
+                        Festivals: Experience local festivals such as Basant Panchami, Bihu, and the Mussoorie Winterline Carnival.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4clickable-column" data-toggle="popover" data-placement="top" title="Selectable Column" data-content="This column is selectable on click.">
+                <div class="bg-primary p-4">
+                    <h2>Share Your Experience</h2>
+                    <p>Visiting Mussoorie is an enchanting experience. The tranquility of the hills, the cool breeze, and the scenic beauty provide a perfect escape from the city's chaos. Exploring the various attractions, enjoying local delicacies, and witnessing the stunning views of the Himalayas are memories that linger on. The place has a charm that captivates visitors and leaves a lasting impression of natural beauty and tranquility.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                // Bootstrap popover initialization
+                $('[data-toggle="popover"]').popover();
+            });
+        </script>
+</body>
+
+</html>

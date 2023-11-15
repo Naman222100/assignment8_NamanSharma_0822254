@@ -1,0 +1,81 @@
+
+body {
+    background-color: rgb(181, 215, 249); 
+}
+
+
+
+header {
+    padding: 3rem;
+}
+
+h2{
+    font-size: 25px;
+    color: aliceblue;
+}
+p {
+    margin-bottom: 0;
+    color: aliceblue; 
+}
+
+
+@media (max-width: 575.98px) {
+    .bg-primary {
+        background-color: rgb(236, 193, 193) !important;
+    }
+    .bg-secondary {
+        background-color: rgb(234, 244, 180)(255, 200, 0) !important;
+    }
+    .bg-success {
+        background-color: rgb(191, 191, 244) !important;
+    }
+    
+    .bg-info {
+        background-color: rgb(246, 185, 232)!important;
+    }
+    .bg-warning {
+        background-color: rgb(192, 250, 192) !important;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .bg-primary {
+        background-color: rgb(238, 130, 130) !important;
+    }
+    .bg-secondary {
+        background-color: rgb(221, 247, 118) !important;
+    }
+    .bg-success {
+        background-color: rgb(91, 91, 253) !important;
+    }
+    
+    .bg-info {
+        background-color: rgb(246, 116, 235) !important;
+    }
+    .bg-warning {
+        background-color: rgb(86, 242, 86) !important;
+    }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+    .bg-primary {
+        background-color: rgb(53, 1, 1)(82, 4, 4) !important;
+    }
+    .bg-secondary {
+        background-color: rgb(73, 90, 17) !important;
+    }
+    .bg-success {
+        background-color: rgb(3, 3, 91)!important;
+    }
+    
+    .bg-info {
+        background-color: rgb(247, 0, 255)!important;
+    }
+    .bg-warning {
+        background-color: green !important;
+    }
+}
+
+
